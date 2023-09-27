@@ -1,0 +1,33 @@
+# Created with YamlCreate.ps1 v2.2.10 $debug=MDSU.CRLF.5-1-19041-3031.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.5.0.schema.json
+
+PackageIdentifier: Tensai75.nzb-monkey-go
+PackageVersion: 0.1.6
+PackageLocale: en-US
+Publisher: Tensai75
+PublisherUrl: https://github.com/Tensai75
+PublisherSupportUrl: https://github.com/Tensai75/nzb-monkey-go/discussions
+# PrivacyUrl:
+Author: Tensai75
+PackageName: 'Old Variable: NZB Monkey Go'
+PackageUrl: https://github.com/Tensai75/nzb-monkey-go
+License: MIT
+LicenseUrl: https://github.com/Tensai75/nzb-monkey-go/blob/main/LICENSE
+Copyright: Tensai75
+# CopyrightUrl:
+ShortDescription: NZB Monkey GO makes your live much easier by supporting the search/download/rename/apply process of NZBLNK-Links into your favorite download tool.
+# Description:
+Moniker: nzbmonkeygo
+Tags:
+- downloader
+- nzb
+- nzblink
+- nzblnk
+- usenet
+# ReleaseNotes:
+# ReleaseNotesUrl:
+# PurchaseUrl:
+# InstallationNotes:
+# Documentations:
+ManifestType: defaultLocale
+ManifestVersion: 1.5.0

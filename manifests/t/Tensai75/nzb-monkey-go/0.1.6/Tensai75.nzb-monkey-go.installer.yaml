@@ -1,0 +1,21 @@
+# Created with YamlCreate.ps1 v2.2.10 $debug=MDSU.CRLF.5-1-19041-3031.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: Tensai75.nzb-monkey-go
+PackageVersion: 0.1.6
+InstallerLocale: en-US
+InstallerType: zip
+Protocols:
+- nzblnk
+FileExtensions:
+- nzb
+Installers:
+- Architecture: x64
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: ./nzb-monkey-go.exe
+    PortableCommandAlias: nzb-monkey-go
+  InstallerUrl: https://github.com/Tensai75/nzb-monkey-go/releases/download/v0.1.6/nzb-monkey-go_v0.1.6-amd64-windows.zip
+  InstallerSha256: 53C5EE2D1138233A9E7A1082DF9879E95FFE376CCDEAA2F8F38EFD4D37690A3A
+ManifestType: installer
+ManifestVersion: 1.5.0
